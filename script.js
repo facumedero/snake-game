@@ -50,7 +50,7 @@ function keyPressed() {
           break;
       case DOWN_ARROW:
           ySnake += 1;
-          direction = { irectionX: 0, directionX: 1}
+          direction = { directionX: 0, directionY: 1}
           break;
     }  
 }
@@ -101,7 +101,3 @@ function drawPoint(x, y) {
     textSize(15);
     text(`(${x},${y})`, x, y + 18);
 }
-
-
-
-
